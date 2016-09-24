@@ -1,0 +1,188 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #FFFFFF;
+	background-color: #1a1a1a;
+    height: 100%;
+}
+
+
+.navbar-custom {
+	color: #FFFFFF;
+    background-color: #262626;
+    border-color: transparent;
+}
+
+#icon {
+	margin-left: 5px;
+	padding-bottom: 12px;
+}
+
+#menuItem1, #menuItem2 {
+	margin-right: 50px;
+}
+
+#portfolioModal {
+    background-color: #1a1a1a;
+}
+
+.modal-header {
+    border-style: hidden;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+#bottomRow {
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    height: 500px;
+    margin-top: 100px;
+    text-align:center;
+    background: #000 url("../images/jumboE.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    color: #FFF; // change text color
+}
+
+.description > h3 > a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.description {
+	padding-top: 350px;
+}
+
+.thumbnail {
+    background: transparent;
+    border-style: hidden;
+}
+
+.view {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    float: left;
+    border: 2px solid gray;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff url(../images/thumbA.png) no-repeat center center
+}
+.view .mask, .view .content {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block; 
+    position: relative;
+}
+.view h2 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    /*background: rgba(65, 105, 225, 0.7);*/
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 5px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #262626;
+    color: #fff;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+.view-first img { 
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(105, 105, 105, 0.7);  
+    transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p { 
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.view-first:hover img { 
+    transform: scale(1.1);
+} 
+.view-first:hover .mask { 
+    opacity: 1;
+}
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
+
+#about {
+    font-size: medium;
+    margin-bottom: 100px;
+}
+
+#iconRow {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #f2f2f2;
+    margin-bottom: 0;
+}
+
+.fa {
+    color: gray;
+}
+
+#iconA, #iconB, #iconC, #quote, #email {
+    text-align: center;
+}
+
+.footer {
+    height: 75px;
+    background-color: #262626;
+    width: 100%;
+}
+
+
+
+
