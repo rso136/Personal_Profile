@@ -67,6 +67,7 @@ body {
     margin: 10px;
     float: left;
     border: 2px solid gray;
+    border-radius: 8px;
     overflow: hidden;
     position: relative;
     text-align: center;
