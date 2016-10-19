@@ -17,6 +17,15 @@ body {
 	padding-bottom: 12px;
 }
 
+#bioRow {
+    margin-bottom: 50px;
+}
+
+#profilePic {
+    float: left;
+    margin-right: 20px;
+}
+
 #menuItem1, #menuItem2 {
 	margin-right: 50px;
 }
