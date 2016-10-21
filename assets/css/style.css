@@ -18,7 +18,7 @@ body {
 }
 
 #bioRow {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 #profilePic {
@@ -183,6 +183,23 @@ body {
     color: gray;
 }
 
+.portHeading {
+    background-color: #262626;
+}
+
+.portImg {
+    float: left;
+    margin-right: 20px;
+}
+
+#friendImg {
+    margin-bottom: 35px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
 #iconA, #iconB, #iconC, #quote, #email {
     text-align: center;
 }
@@ -191,10 +208,6 @@ body {
     height: 75px;
     background-color: #262626;
     width: 100%;
-}
-
-#seal {
-    text-align: center;
 }
 
 
