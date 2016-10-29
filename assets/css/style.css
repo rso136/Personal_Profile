@@ -24,6 +24,7 @@ body {
 #profilePic {
     float: left;
     margin-right: 20px;
+    margin-bottom: 50px;
 }
 
 #menuItem1, #menuItem2 {
@@ -67,7 +68,7 @@ body {
 
 #about {
     font-size: medium;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 #iconRow {
