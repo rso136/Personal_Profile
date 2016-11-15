@@ -35,7 +35,7 @@ a:visited {
 
 .jumboB {
 	font-family: 'Lora', serif;
-  height: 45vh;
+  height: 43vh;
   padding-top: 0;
   margin: 0 auto;
   text-align:center;
@@ -50,7 +50,7 @@ a:visited {
 #slogan {
 	display: none;
   margin-bottom: 2vh;
-	font-size: 60px;
+	font-size: 65px;
 	opacity: 0.8;
 }
 

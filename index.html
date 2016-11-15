@@ -59,7 +59,7 @@
                             <img class="img-fluid" id="bioImg" src="assets/images/bioImg.jpg">
                         </div>
                         <div class="col-md-4 col-xs-8" id="bioStatement">
-                            <p>Web development is my trade through which I aspire to serve the practical needs of organizations and individuals. My passion in my work is to focus outwards, making the wholesome benefit of others the focal point of what I do.</p>
+                            <p>Web development is my trade through which I aspire to serve the practical needs of organizations and individuals. My passion in my work is to focus outwards, making the benefit of others the focal point of what I do.</p>
                             <p>In addition to my proficiency as a full stack web developer, I am also an experienced public speaker with a background in writing.</p>
                             <p>I would be glad to chat so let's get in <a href="mailto:rso136@gmail.com" target="_blank"><u>touch</u></a>.</p>
                         </div>
@@ -282,8 +282,9 @@ $(document).ready(function() {
 
     var hover = false;
 
-    $("#slogan").fitText(0.9, {
-        maxFontSize: '60px'
+    $("#slogan").fitText(1.2, {
+        minFontSize: '25px',
+        maxFontSize: '65px'
     });
 
     $('.grid').masonry({
