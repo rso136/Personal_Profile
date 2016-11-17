@@ -111,7 +111,9 @@ a:visited {
 }
 
 #portGrid {
-	margin-top: 4vh;
+	margin-top: 3vh;
+  text-align: center;
+  color: white;
 }
 
 .card, .card-title, .card-subtitle, .card-text {
@@ -193,9 +195,13 @@ span {
   border-width: thin;
   border-color: white;
   border-radius: 3px;
-  margin-left: 20%;
+  margin-left: 18%;
   margin-right: 20%;
 
+}
+
+#subtite {
+  font-family: 'Lato', sans-serif;
 }
 
 .overlay {
