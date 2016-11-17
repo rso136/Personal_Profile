@@ -218,7 +218,7 @@ $(document).ready(function() {
 
         $('#solverApp').on('click', function() {
             window.open(
-                'https://pure-sea-11701.herokuapp.com',
+                'https://rcbsolver.herokuapp.com/',
                 '_blank'
             );
         })
