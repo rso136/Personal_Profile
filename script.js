@@ -118,24 +118,24 @@ $(document).ready(function() {
         $.fn.fullpage.moveTo(2, 1);
     })
 
-    $(document).on('click', '#projectSkyrim', function() {
+    //$(document).on('click', '#projectSkyrim', function() {
+    //    $.fn.fullpage.moveTo(2, 2);
+    //})
+
+    $(document).on('click', '#projectFriends', function() {
         $.fn.fullpage.moveTo(2, 2);
     })
 
-    $(document).on('click', '#projectFriends', function() {
+    $(document).on('click', '#projectLife', function() {
         $.fn.fullpage.moveTo(2, 3);
     })
 
-    $(document).on('click', '#projectLife', function() {
+    $(document).on('click', '#projectSolver', function() {
         $.fn.fullpage.moveTo(2, 4);
     })
 
-    $(document).on('click', '#projectSolver', function() {
-        $.fn.fullpage.moveTo(2, 5);
-    })
-
     $(document).on('click', '#projectMovie', function() {
-        $.fn.fullpage.moveTo(2, 6);
+        $.fn.fullpage.moveTo(2, 5);
     })
 
     $(document).on({
@@ -174,19 +174,19 @@ $(document).ready(function() {
             );
         })
 
-        $('#skyrimApp').on('click', function() {
-            window.open(
-                'https://safe-basin-10956.herokuapp.com/',
-                '_blank'
-            );
-        })
+      //  $('#skyrimApp').on('click', function() {
+      //      window.open(
+      //          'https://safe-basin-10956.herokuapp.com/',
+      //          '_blank'
+      //      );
+      //  })
 
-        $('#skyrimGit').on('click', function() {
-            window.open(
-                'https://github.com/rso136/Skyrim_Game',
-                '_blank'
-            );
-        })
+      //  $('#skyrimGit').on('click', function() {
+      //      window.open(
+      //          'https://github.com/rso136/Skyrim_Game',
+      //          '_blank'
+      //      );
+      //  })
 
         $('#friendApp').on('click', function() {
             window.open(
