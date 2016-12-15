@@ -1,10 +1,10 @@
 {
   "name": "portfolio2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,5 +22,15 @@
     "react-dom": "^15.3.2",
     "react-router": "^3.0.0",
     "webpack": "^1.13.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rso136/Personal_Profile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rso136/Personal_Profile/issues"
+  },
+  "homepage": "https://github.com/rso136/Personal_Profile#readme",
+  "description": ""
 }
