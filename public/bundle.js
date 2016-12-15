@@ -26935,12 +26935,12 @@
 						React.createElement(
 							'p',
 							null,
-							' In the spring of 2016, following ten years of service in the ministry, I decided to take a first step in achieving my goal of becoming a bi-vocational pastor and pursued an education in web development. What unites what would otherwise seem like two disparate vocations is my desire to serve my community in a way that is not self-seeking but rather in a way that is genuinely looking out for the best interest of others. Here is a quote that captures the essence of my vision for work:'
+							' In the spring of 2016, following ten years of service in the ministry, I decided to take a first step in achieving my goal of becoming a bi-vocational pastor and pursued an education in web development. What unites what would otherwise seem like two disparate vocations is my desire to serve my community in a way that is not self-seeking but rather in a way that is genuinely looking out for the best interest of others.'
 						),
 						React.createElement('img', { src: 'assets/images/scenery.jpg', className: 'img-circle', id: 'aboutImgA', height: '185', width: '185' }),
 						React.createElement(
 							'p',
-							null,
+							{ className: 'script' },
 							React.createElement(
 								'i',
 								null,
@@ -26949,7 +26949,7 @@
 						),
 						React.createElement(
 							'p',
-							null,
+							{ className: 'script' },
 							React.createElement(
 								'i',
 								null,
@@ -26959,7 +26959,7 @@
 						React.createElement(
 							'p',
 							null,
-							'I am convinced that this sort of freedom is at the heart of authentic humility. As a follower of Jesus Christ, I believe that the key to this freedom is communicated through the good news about Him and it informs the way I understand my work and my life as a whole. Succinctly put, as it relates to my work, I desire to be characterized by the sort of humility that looks outward and does good, not for the sake of self promotion but rather for its own sake, simply out of love for God and love for others.'
+							'I am convinced that the sort of freedom summarized in the quote above is at the heart of authentic humility and it captures the essence of my vision for work. As a follower of Jesus Christ, His message of humble freedom informs the way I understand my work and my life as a whole. Succinctly put, I desire to be characterized by the sort of humility that looks outward and does good, not for the sake of self promotion but rather for its own sake, simply out of love for God and love for others.'
 						)
 					)
 				),
@@ -26971,7 +26971,7 @@
 						{ className: 'col-xs-12 col-md-12', id: 'quote' },
 						React.createElement(
 							'p',
-							null,
+							{ className: 'script' },
 							React.createElement(
 								'i',
 								null,
@@ -26980,7 +26980,7 @@
 						),
 						React.createElement(
 							'p',
-							null,
+							{ className: 'script' },
 							React.createElement(
 								'i',
 								null,
