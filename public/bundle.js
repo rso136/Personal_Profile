@@ -26944,7 +26944,7 @@
 							React.createElement(
 								'i',
 								null,
-								'\u201C...wouldn\'t you want to be a person who does not need honour \u2013 nor is afraid of it? Someone who does not lust for recognition \u2013 nor, on the other hand, is frightened to death of it? Don\'t you want to be the kind of person who, when they see themselves in a mirror or reflected in a shop window, does not admire what they see but does not cringe either? Wouldn\'t you like to be the type of person who, in their imaginary life, does not sit around fantasizing about hitting self-esteem home-runs, daydreaming about successes that gives them the edge over others? Or perhaps you tend to beat yourself up and to be tormented by regrets. Wouldn\'t you like to be free of them?  Wouldn\'t you like to be the skater who wins the sliver, and yet is thrilled about those three triple jumps that the gold medal winner did? To love it the way you love a sunrise? Just to love the fact that it was done? For it not to matter whether it was their success or your success. Not to care if they did it or you did it. You are happy that they did it as if you had done it yourself \u2013 because you are just so happy to see it.\u201D '
+								'\u201C...wouldn\'t you want to be a person who does not need honour \u2013 nor is afraid of it? Someone who does not lust for recognition \u2013 nor, on the other hand, is frightened to death of it? Don\'t you want to be the kind of person who, when they see themselves in a mirror or reflected in a shop window, does not admire what they see but does not cringe either? Wouldn\'t you like to be the type of person who, in their imaginary life, does not sit around fantasizing about hitting self-esteem home-runs, daydreaming about successes that gives them the edge over others? Or perhaps you tend to beat yourself up and to be tormented by regrets. Wouldn\'t you like to be free of them?  Wouldn\'t you like to be the skater who wins the silver, and yet is thrilled about those three triple jumps that the gold medal winner did? To love it the way you love a sunrise? Just to love the fact that it was done? For it not to matter whether it was their success or your success. Not to care if they did it or you did it. You are happy that they did it as if you had done it yourself \u2013 because you are just so happy to see it.\u201D '
 							)
 						),
 						React.createElement(
@@ -26959,7 +26959,7 @@
 						React.createElement(
 							'p',
 							null,
-							'I am convinced that this sort of freedom is at the heart of authentic humility. As a follower of Jesus Christ, I believe that the key to this freedom is communicated through the good news about Him and it informs the way I understand my work and my life as a whole. Simply put, as it relates to my work, I desire to be characterized by humility.'
+							'I am convinced that this sort of freedom is at the heart of authentic humility. As a follower of Jesus Christ, I believe that the key to this freedom is communicated through the good news about Him and it informs the way I understand my work and my life as a whole. Succinctly put, as it relates to my work, I desire to be characterized by the sort of humility that looks outward and does good, not for the sake of self promotion but rather for its own sake, simply out of love for God and love for others.'
 						)
 					)
 				),
