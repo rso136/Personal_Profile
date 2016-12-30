@@ -27027,6 +27027,15 @@
 								'li',
 								null,
 								'Database Management: MySQL & MongoDB'
+							),
+							React.createElement(
+								'li',
+								null,
+								React.createElement(
+									'a',
+									{ href: 'Richard_Oh_Resume.pdf' },
+									'More...'
+								)
 							)
 						)
 					),
