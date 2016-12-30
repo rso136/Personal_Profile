@@ -26959,7 +26959,7 @@
 						React.createElement(
 							'p',
 							null,
-							'I am convinced that the sort of freedom summarized in the quote above is at the heart of authentic humility and it captures the essence of my vision for work. As a follower of Jesus Christ, His message of humble freedom informs the way I understand my work and my life as a whole. Succinctly put, I desire to be characterized by the sort of humility that looks outward and does good, not for the sake of self promotion but rather for its own sake, simply out of love for God and love for others.'
+							'I am convinced that the sort of freedom summarized in the quote above captures the essence of my vision for work. As a follower of Jesus Christ, His message informs the way I understand my work and my life as a whole. Succinctly put, I desire to be characterized by the sort of humility that looks outward and does good, not for the sake of self promotion but rather for its own sake, simply out of love for God and love for others.'
 						)
 					)
 				),
