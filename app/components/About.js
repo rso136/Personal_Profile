@@ -38,7 +38,7 @@ Succinctly put, I desire to be characterized by the sort of humility that looks 
 								<li>Jquery</li>
 								<li>Node.js</li>
 								<li>ReactJS</li>
-								<li>Database Management: MySQL & MongoDB</li>
+								<li>Database Management: MySQL & MongoDB</li>			
 							</ul>
 					</div>
 					<div className="col-xs-12 col-md-4 col-md-offset-2" id="skillsB">

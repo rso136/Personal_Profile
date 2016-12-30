@@ -12,6 +12,7 @@ body {
 }
 
 .navbar-default {
+	/*background-color: #edeeef;*/
 	background-color: #f9f9f9;
 	border-bottom: thin solid #e8e8e8;
 }
@@ -159,7 +160,7 @@ a.portLink:hover {
 }
 
 .caption {
-	/*border-top: solid #a3a3a3;*/
+	
 }
 
 .fa-play-circle, .fa-code-fork {
