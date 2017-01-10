@@ -26656,7 +26656,8 @@
 	var About = __webpack_require__(235);
 	var Portfolio = __webpack_require__(236);
 	var Javascript = __webpack_require__(237);
-	var Node = __webpack_require__(239);
+	//var Node = require('../components/Node');
+	var AngularJS = __webpack_require__(239);
 	var ReactJS = __webpack_require__(240);
 	var Fullstack = __webpack_require__(241);
 
@@ -26666,7 +26667,7 @@
 			React.createElement(Route, { path: 'About', component: About }),
 			React.createElement(Route, { path: 'Portfolio', component: Portfolio }),
 			React.createElement(Route, { path: 'Javascript', component: Javascript }),
-			React.createElement(Route, { path: 'Node', component: Node }),
+			React.createElement(Route, { path: 'AngularJS', component: AngularJS }),
 			React.createElement(Route, { path: 'ReactJS', component: ReactJS }),
 			React.createElement(Route, { path: 'Fullstack', component: Fullstack }),
 			React.createElement(IndexRoute, { component: Portfolio })
@@ -27128,12 +27129,12 @@
 						{ className: 'col-xs-12 col-md-3 iconDiv' },
 						React.createElement(
 							'a',
-							{ href: '#/node', className: 'hvr-underline-from-center' },
-							React.createElement('img', { className: 'icon', src: 'assets/images/node.png' }),
+							{ href: '#/angularJS', className: 'hvr-underline-from-center' },
+							React.createElement('img', { className: 'icon', src: 'assets/images/angular.png' }),
 							React.createElement(
 								'h3',
 								null,
-								'NODE / EXPRESS'
+								'ANGULARJS'
 							)
 						)
 					),
@@ -27147,7 +27148,7 @@
 							React.createElement(
 								'h3',
 								null,
-								'REACT.JS'
+								'REACTJS'
 							)
 						)
 					),
@@ -27290,8 +27291,8 @@
 						{ className: 'col-xs-2 col-md-1' },
 						React.createElement(
 							'a',
-							{ href: '#/node', className: 'hvr-grow' },
-							React.createElement('img', { src: 'assets/images/node.png', className: 'img-responsive icon', alt: 'Responsive image' })
+							{ href: '#/angularJS', className: 'hvr-grow' },
+							React.createElement('img', { src: 'assets/images/angular.png', className: 'img-responsive icon', alt: 'Responsive image' })
 						)
 					),
 					React.createElement(
@@ -27331,8 +27332,8 @@
 
 	var Items = __webpack_require__(238);
 
-	var Node = React.createClass({
-		displayName: 'Node',
+	var AngularJS = React.createClass({
+		displayName: 'AngularJS',
 
 
 		render: function render() {
@@ -27357,8 +27358,8 @@
 							{ className: 'thumbnail' },
 							React.createElement(
 								'a',
-								{ href: 'https://quiet-ocean-92769.herokuapp.com/', target: '_blank' },
-								React.createElement('img', { className: 'portImg', src: 'assets/images/friends.png' })
+								{ href: 'http://guarded-savannah-77228.herokuapp.com', target: '_blank' },
+								React.createElement('img', { className: 'portImg', src: 'assets/images/destination.png' })
 							),
 							React.createElement(
 								'div',
@@ -27369,25 +27370,25 @@
 									React.createElement(
 										'b',
 										null,
-										'FRIENDWAY'
+										'DESTINATION'
 									)
 								),
 								React.createElement(
 									'p',
 									null,
-									'Friendway is a demonstrator Node application which showcases Express.js api routing combined with Jquery programming. No, you won\'t find real friends through Friendway. But you will see a neat demo that showcases the potential of Express.js with a generous dash of Jquery.'
+									'Destination is a demonstrator app which showcases AngularJS proficiency integrated with APIs provided through Bing Maps, Open Weather Map, and Eventful. Access instant traffic, weather, and event information for your destinations throughout the U.S..'
 								),
 								React.createElement(
 									'div',
 									{ className: 'portOptions' },
 									React.createElement(
 										'a',
-										{ href: 'https://quiet-ocean-92769.herokuapp.com/', target: '_blank' },
+										{ href: 'http://guarded-savannah-77228.herokuapp.com', target: '_blank' },
 										React.createElement('i', { className: 'fa fa-play-circle fa-3x', 'aria-hidden': 'true' })
 									),
 									React.createElement(
 										'a',
-										{ href: 'https://github.com/rso136/Week13-FriendFinder', target: '_blank' },
+										{ href: 'https://github.com/rso136/Destination', target: '_blank' },
 										React.createElement('i', { className: 'fa fa-code-fork fa-3x', 'aria-hidden': 'true' })
 									)
 								)
@@ -27400,7 +27401,7 @@
 
 	});
 
-	module.exports = Node;
+	module.exports = AngularJS;
 
 /***/ },
 /* 240 */

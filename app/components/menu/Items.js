@@ -15,8 +15,8 @@ var Items = React.createClass({
 							</a>
 						</div>
 						<div className="col-xs-2 col-md-1">
-							<a href="#/node" className="hvr-grow">
-								<img src="assets/images/node.png" className="img-responsive icon" alt="Responsive image"></img>
+							<a href="#/angularJS" className="hvr-grow">
+								<img src="assets/images/angular.png" className="img-responsive icon" alt="Responsive image"></img>
 							</a>
 						</div>
 						<div className="col-xs-2 col-md-1">

@@ -21,19 +21,19 @@ var Portfolio = React.createClass({
 						</a>
 					</div>
 					<div className="col-xs-12 col-md-3 iconDiv">
-						<a href="#/node" className="hvr-underline-from-center">
-							<img className="icon" src="assets/images/node.png"></img>
-							<h3>NODE / EXPRESS</h3>
-						</a>
+						<a href="#/angularJS" className="hvr-underline-from-center">	
+							<img className="icon" src="assets/images/angular.png"></img>
+							<h3>ANGULARJS</h3>
+						</a>	
 					</div>
 					<div className="col-xs-12 col-md-3 iconDiv">
 						<a href="#/reactJS" className="hvr-underline-from-center">	
 							<img className="icon" src="assets/images/react.png"></img>
-							<h3>REACT.JS</h3>
-						</a>	
+							<h3>REACTJS</h3>
+						</a>
 					</div>
 					<div className="col-xs-12 col-md-3 iconDiv">
-						<a href="#/fullstack" className="hvr-underline-from-center">	
+						<a href="#/fullstack" className="hvr-underline-from-center">
 							<img className="icon" src="assets/images/fullstack.png"></img>
 							<h3>FULL STACK</h3>
 						</a>

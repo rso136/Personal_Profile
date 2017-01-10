@@ -9,7 +9,8 @@ var Main = require('../components/Main');
 var About = require('../components/About');
 var Portfolio = require('../components/Portfolio'); 
 var Javascript = require('../components/Javascript');
-var Node = require('../components/Node');
+//var Node = require('../components/Node');
+var AngularJS = require('../components/AngularJS');
 var ReactJS = require('../components/ReactJS');
 var Fullstack = require('../components/Fullstack');
 
@@ -21,7 +22,7 @@ module.exports = (
 			<Route path='About' component={About} />
 			<Route path='Portfolio' component={Portfolio} />
 			<Route path='Javascript' component={Javascript} />
-			<Route path='Node' component={Node} />
+			<Route path='AngularJS' component={AngularJS} />
 			<Route path='ReactJS' component={ReactJS} />
 			<Route path='Fullstack' component={Fullstack} />
 
