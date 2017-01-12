@@ -1,0 +1,314 @@
+html {
+	height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 8rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#sectionBTop {
+	margin-top: 5vh;
+}
+
+#sectionCTop {
+	font-size: 1.2em;
+}
+
+.sectionB {
+	/*background-color: #464647;*/
+	background-color: #ededed;
+}
+
+.sectionC {
+	background-color: #ededed;
+}
+
+.top {
+	border-top: solid;
+	border-width: thin;
+	border-color: #adadad;
+}
+
+.bottom {
+	border-bottom: solid;
+	border-width: thin;
+	border-color: #adadad;
+
+}
+
+#myModal {
+	text-align: center;
+}
+
+.modal-header {
+	background-color: #191919;
+	color: white;
+}
+
+.modal-body > a {
+	text-decoration: none;
+	color: #191919; 
+}
+
+.modal-body > a > .fa {
+	margin: 0 10px 0 10px;
+}
+
+.navbar-custom {
+  border-color: transparent;
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color: #191919;
+
+}
+
+#myNavbar {
+	margin-left: 1vw;
+}
+
+.navbar-brand {
+	font-family: 'Quicksand', sans-serif;
+	margin-right: 1vw;
+}
+
+.navbar-custom > .container-fluid > a {
+  color: #e0e0e0;
+}
+
+.navbar-collapse > ul.navbar-nav > li.menuOption > a {
+  color: #e0e0e0;
+}
+
+.banner {
+	height: 350px;
+ 	width: 100%;
+  	max-height: 50%;
+  	max-width: 100%;
+  	min-height: 20%;
+  	min-width: 30%;
+  	background-size: cover;
+  	background-image: url("../images/jumboB.jpg");
+  	font-family: 'Covered By Your Grace', cursive;
+  	color: white;
+}
+
+#bannerSloganA {
+	margin-top: 20vh;
+	margin-left: 3vw;
+}
+
+#bannerSloganB {
+	margin-left: 10vw;
+}
+
+#bio {
+	font-size: 1.2em;
+}
+
+.skills {
+	text-align: center;
+}
+
+.skillsHeading {
+	color: black;
+}
+
+.edHeading {
+	color: black;
+}
+
+.skillList {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.btn-custom {
+	background-color: #005F7D;
+	color: white;
+}
+
+.btn-customB {
+	background-color: #6F867E;
+	color: white;
+}
+
+.btn-customC {
+	background-color: #005F7D;
+	color: white;
+}
+
+.btn-customE {
+	background-color: #ce5061;
+	color: white;
+}
+
+.btn-customG {
+	background-color: #191919;
+	color: white;
+}
+
+.btn-space {
+	margin-right: 1vw;
+}
+
+.skillBtn {
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+}
+
+#highLightHeading {
+	margin-top: 5vh;
+}
+
+#highLightImg {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+#highLightBtnRow {
+	text-align: center;
+	margin-top: 2vh;
+	margin-bottom: 4vh;
+}
+
+.highLightBtn {
+	margin: 0 1vw 0 1vw;
+}
+
+#clickHeading, #clickHeading2 {
+	color: #005F7D;
+}
+
+.faClick {
+	color: #191919; 
+}
+
+#portfolio {
+	text-align: center;
+}
+
+#portHeading {
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+}
+
+#portContainer {
+	margin-bottom: 20vh;
+}
+
+.thumbnail {
+	border-style: solid;
+	border-width: thin;
+	border-color: #adadad;
+}
+
+.heading {
+	text-align: center;
+}
+
+.caption {
+	border-top: solid;
+	border-width: thin;
+	border-color: #adadad;
+}
+
+.ed {
+	text-align: center;
+	margin-bottom: 2vh;
+}
+
+#bottom {
+	margin-bottom: 15vh;
+}
+
+#footer {
+  height: 170px;
+  background-color: #191919;
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#footer > a {
+	color: white;
+	text-decoration: none;
+}
+
+#footer > a > .fa {
+	color: white;
+	text-decoration: none;
+	margin-bottom: 1.5vh;
+}
+
+.topFooterIcon {
+	margin-top: 3vh;
+}
+
+/*Overlay Content*/
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
