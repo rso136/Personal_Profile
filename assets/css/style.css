@@ -142,26 +142,31 @@ a:hover {
 .btn-custom {
 	background-color: #005F7D;
 	color: white;
+	border-radius: 0;
 }
 
 .btn-customB {
 	background-color: #6F867E;
 	color: white;
+	border-radius: 0;
 }
 
 .btn-customC {
 	background-color: #005F7D;
 	color: white;
+	border-radius: 0;
 }
 
 .btn-customE {
 	background-color: #ce5061;
 	color: white;
+	border-radius: 0;
 }
 
 .btn-customG {
 	background-color: #191919;
 	color: white;
+	border-radius: 0;
 }
 
 .btn-space {
