@@ -145,10 +145,40 @@ a:hover {
 	border-radius: 0;
 }
 
+.btn-custom:hover {
+	background-color: #005F7D;
+	color: white;
+}
+
+.btn-custom:visited {
+	background-color: #005F7D;
+	color: white;
+}
+
+.btn-custom:active {
+	background-color: #005F7D;
+	color: white;
+}
+
 .btn-customB {
 	background-color: #6F867E;
 	color: white;
 	border-radius: 0;
+}
+
+.btn-customB:hover {
+	background-color: #6F867E;
+	color: white;
+}
+
+.btn-customB:visited {
+	background-color: #6F867E;
+	color: white;
+}
+
+.btn-customB:active {
+	background-color: #6F867E;
+	color: white;
 }
 
 .btn-customC {
@@ -157,16 +187,61 @@ a:hover {
 	border-radius: 0;
 }
 
+.btn-customC:hover {
+	background-color: #005F7D;
+	color: white;
+}
+
+.btn-customC:visited {
+	background-color: #005F7D;
+	color: white;
+}
+
+.btn-customC:active {
+	background-color: #005F7D;
+	color: white;
+}
+
 .btn-customE {
 	background-color: #ce5061;
 	color: white;
 	border-radius: 0;
 }
 
+.btn-customE:hover {
+	background-color: #ce5061;
+	color: white;
+}
+
+.btn-customE:visited {
+	background-color: #ce5061;
+	color: white;
+}
+
+.btn-customE:active {
+	background-color: #ce5061;
+	color: white;
+}
+
 .btn-customG {
 	background-color: #191919;
 	color: white;
 	border-radius: 0;
+}
+
+.btn-customG:hover {
+	background-color: #191919;
+	color: white;
+}
+
+.btn-customG:visited {
+	background-color: #191919;
+	color: white;
+}
+
+.btn-customG:active {
+	background-color: #191919;
+	color: white;
 }
 
 .btn-space {
