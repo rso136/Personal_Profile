@@ -139,6 +139,10 @@ a:hover {
 	margin: 0;
 }
 
+.smallText {
+	font-size: .85em;
+}
+
 .btn-custom {
 	background-color: #005F7D;
 	color: white;
@@ -287,6 +291,14 @@ a:hover {
 #portHeading {
 	margin-top: 1vh;
 	margin-bottom: 2vh;
+}
+
+#portHeadingB {
+	margin-bottom: 2vh;
+}
+
+#personalStatement {
+	text-align: center;
 }
 
 #portContainer {

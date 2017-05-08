@@ -52,8 +52,6 @@
                 <img src="assets/images/profile.jpg" id="profileImg" height="140" width="140">
                 <p>In the spring of 2016, following ten years of service in the ministry, I decided to take a first step in achieving my goal of learning to code and pursued an education in web development. What unites what would otherwise seem like two disparate vocations is my desire to serve my community in a way that is not self-seeking but rather in a way that is genuinely looking out for the best interest of others.</p>
                 <p>I am convinced that having a diverse background helps a person to process information from a variety of angles and enables an individual to think outside the box. Coming from a background in technology, ministerial studies, and liberal arts, I have developed a sensitivity and inquisitiveness to a broad spectrum of interests and concerns which reflects the actual complexity of the world around us. In conjunction with my technical proficiencies, I am capable of adapting and thriving in a dynamic environment.</p>
-
-                <p>I am currently employed as a web developer for <a href="https://www.grantep.com/" target="_blank">GrantEP.</a></p>
             </div>
         </div>
         <div class="row sectionB top bottom" id="sectionBTop">
@@ -82,10 +80,46 @@
         </div>
         <div class="row" id="anchor">
             <div class="heading col-md-12 col-xs-12">
-                <h2 id="highLightHeading">Portfolio Highlight: <i>Briarwood Deli</i></h2>
+                <h2 id="highLightHeading">Portfolio Highlight: <i>EZ Tables</i></h2>
             </div>
         </div>
         <div class="row highlight">
+            <div class="col-md-6 col-md-offset-3 col-xs-12" id="sectionCTop">
+                <a href="https://eztables.herokuapp.com/" target="_blank"><img src="assets/images/ez_tables.png" class="img-responsive" alt="Responsive image" id="highLightImg"></a>
+                <p><strong>Update 5/8/17: </strong>EZ Tables is a MySQL database administration application I programmed recently in order to run SQL queries and review and edit tables quickly and efficiently. Built around the MySQL node package, EZ Tables combines an Express.js framework with Jquery front end scripting in order to create an easy to use database management web application. Furthermore, EZ Tables has a Bootstrap mobile responsive interface which means database administration may be done on the go through your phone or tablet.</p>
+                <p>In order to utilize EZ Tables for your own MySQL database, one needs only to modify a few parameters in the source code. Edit the server.js file to take in the necessary database connection info:</p>
+                <br>
+                <div class="smallText">
+                    <p><i>var pool = mysql.createPool({</p>
+                    <p>&nbsp&nbsp&nbsp&nbsp connectionLimit: 100,</p> 
+                    <p>&nbsp&nbsp&nbsp&nbsp host: 'Your host',</p>
+                    <p>&nbsp&nbsp&nbsp&nbsp user: 'Your username',</p>
+                    <p>&nbsp&nbsp&nbsp&nbsp password: 'Your password',</p> 
+                    <p>&nbsp&nbsp&nbsp&nbsp database: 'Name of your database'</p>
+                <p>});</i></p>
+                    </i>
+                </div>
+                <br>
+                <p>Next, edit the following line in the script.js file as follows:</p>
+                <div class="smallText">
+                    <br>
+                    <p><i>&nbsp&nbsp&nbsp&nbsp data[i].Tables_in_"<b>Insert the name of your database here</b>"</i></p>
+                </div>
+                <br>
+                <p>That's it. You can now use EZ Tables for your own MySQL database administration needs!</p>
+                <br>
+                <p>
+                    The key technologies integrated into this project are as follows:
+                </p>
+                <ul>
+                    <li>Node & Express</li>
+                    <li>MySQL</li>
+                    <li>Jquery</li>
+                    <li>Mobile Responsive Design</li>
+                </ul>
+            </div>
+        </div>
+        <!--<div class="row highlight">
             <div class="col-md-6 col-md-offset-3 col-xs-12" id="sectionCTop">
                 <a href="http://www.newbriarwooddeli.com" target="_blank"><img src="assets/images/briarwood.png" class="img-responsive" alt="Responsive image" id="highLightImg"></a>
                 <p><strong>Update 4/15/17: </strong>Over the past several weeks, I had the opportunity to put my first freelance commercial project into production. Briarwood Deli is a successful small business deli located in Hamilton, NJ that was looking for a basic mobile responsive website with online ordering integration. From a design standpoint, I decided to go with a rustic aesthetic matching the down-to-earth colors and overall feel of the actual business. I chose to go with <a href="https://www.gloriafood.com/" target="_blank">Gloria Food</a> as the online ordering system for its excellent ease of use and its versatile freemium business model. On a personal note, I was very excited when the first online orders were placed and I was glad to be of practical benefit to a bustling deli with delicious food. If you are ever in the vicinity of Hamilton, NJ and are looking for a quick bite to eat, check them out!
@@ -99,7 +133,7 @@
                     <li>Gloria Food Online Ordering System</li>
                 </ul>
             </div>
-        </div>
+        </div>-->
         <!--<div class="row highlight">
             <div class="col-md-6 col-md-offset-3 col-xs-12" id="sectionCTop">
                 <a href="https://peaceful-fjord-39188.herokuapp.com/" target="_blank"><img src="assets/images/nycfcB.png" class="img-responsive" alt="Responsive image" id="highLightImg"></a>
@@ -126,25 +160,25 @@
         </div>-->
         <div class="row">
             <div class="col-md-12 col-xs-12" id="highLightBtnRow">
-                <a href="http://www.newbriarwooddeli.com" target="_blank" class="highLightBtn btn btn-customE" role="button">APPLICATION <span class="glyphicon glyphicon-play" aria-hidden="true"></span></a><a href="https://github.com/rso136/Briarwood" target="_blank" class="highLightBtn btn btn-customG" role="button">REPOSITORY <span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+                <a href="https://eztables.herokuapp.com/" target="_blank" class="highLightBtn btn btn-customE" role="button">APPLICATION <span class="glyphicon glyphicon-play" aria-hidden="true"></span></a><a href="https://github.com/rso136/EZ_Tables" target="_blank" class="highLightBtn btn btn-customG" role="button">REPOSITORY <span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
             </div>
         </div>
         <div class="row">
             <div class="heading col-md-2 col-md-offset-5 col-xs-12" id="clickPortRow">
                 <a href="#anchor2"><h4 id="clickHeading">Click for more</h4>
-			<i class="faClick fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i></a>
+            <i class="faClick fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i></a>
             </div>
         </div>
         <div class="row top sectionC" id="anchor2">
             <div class="heading col-md-12 col-xs-12" id="portHeading">
-                <h2>Portfolio Samples</h2>
+                <h2>Portfolio Projects</h2>
             </div>
         </div>
     </div>
     <div class="col-md-12 col-xs-12 sectionC bottom" id="portContainer">
         <div class="container">
             <div class="row">
-            	<div class="portItem col-md-4 col-xs-12">
+                <div class="portItem col-md-4 col-xs-12">
                     <div class="thumbnail">
                         <a href="https://peaceful-fjord-39188.herokuapp.com/" target="_blank"><img src="assets/images/nycfcB.png"></a>
                         <div class="caption">
@@ -153,8 +187,8 @@
                             <h5><b>Key Tech:</b></h5>
                             <ul>
                                 <li>PHP & MySQL</li>
-                    			<li>Jquery</li>
-                    			<li>Mobile Responsive Design</li>
+                                <li>Jquery</li>
+                                <li>Mobile Responsive Design</li>
                             </ul>
                             <p>
                                 <a href="https://peaceful-fjord-39188.herokuapp.com/" target="_blank" class="btn btn-customC" role="button">
@@ -237,11 +271,9 @@
                     </div>
 
                 </div>-->
-                
-                
-            </div>    
+            </div>
             <div class="row">
-            <div class="portItem col-md-4 col-xs-12">
+                <div class="portItem col-md-4 col-xs-12">
                     <div class="thumbnail">
                         <a href="https://rcbsolver.herokuapp.com/" target="_blank"><img src="assets/images/solver.png"></a>
                         <div class="caption">
@@ -263,31 +295,30 @@
                             </p>
                         </div>
                     </div>
-
                 </div>
                 <div class="portItem col-md-4 col-xs-12">
-                        <div class="thumbnail">
-                            <a href="http://boiling-shelf-50152.herokuapp.com" target="_blank"><img src="assets/images/movie-me.png"></a>
-                            <div class="caption">
-                                <h4><b>MOVIE-ME</b></h4>
-                                <p>Movie-Me is a demonstrator app which showcases ReactJS integrated with the Open Movie Database API, and a data persistent backend. Access information about your favorite movies, submit your own ratings and reviews, and compare them with Rotten Tomatoes' overall consenus.</p>
-                                <h5><b>Key Tech:</b></h5>
-                                <ul>
-                                    <li>MongoDB</li>
-                                    <li>ReactJS</li>
-                                    <li>API / AJAX / JSON</li>
-                                </ul>
-                                <p>
-                                    <a href="http://boiling-shelf-50152.herokuapp.com" target="_blank" class="btn btn-customC" role="button">
-                                        <span class="glyphicon glyphicon-play" aria-hidden="true"></span> APP
-                                    </a>
-                                    <a href="https://github.com/rso136/React_Movies" target="_blank" class="btn btn-customB" role="button">
-                                        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> CODE
-                                    </a>
-                                </p>
-                            </div>
+                    <div class="thumbnail">
+                        <a href="http://boiling-shelf-50152.herokuapp.com" target="_blank"><img src="assets/images/movie-me.png"></a>
+                        <div class="caption">
+                            <h4><b>MOVIE-ME</b></h4>
+                            <p>Movie-Me is a demonstrator app which showcases ReactJS integrated with the Open Movie Database API, and a data persistent backend. Access information about your favorite movies, submit your own ratings and reviews, and compare them with Rotten Tomatoes' overall consenus.</p>
+                            <h5><b>Key Tech:</b></h5>
+                            <ul>
+                                <li>MongoDB</li>
+                                <li>ReactJS</li>
+                                <li>API / AJAX / JSON</li>
+                            </ul>
+                            <p>
+                                <a href="http://boiling-shelf-50152.herokuapp.com" target="_blank" class="btn btn-customC" role="button">
+                                    <span class="glyphicon glyphicon-play" aria-hidden="true"></span> APP
+                                </a>
+                                <a href="https://github.com/rso136/React_Movies" target="_blank" class="btn btn-customB" role="button">
+                                    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> CODE
+                                </a>
+                            </p>
                         </div>
                     </div>
+                </div>
                 <div class="portItem col-md-4 col-xs-12">
                     <div class="thumbnail">
                         <a href="https://rcblifequest.herokuapp.com/" target="_blank"><img src="assets/images/lifequest.png"></a>
@@ -310,9 +341,8 @@
                             </p>
                         </div>
                     </div>
-                </div>   
-                             
-                 <!--<div class="portItem col-md-4 col-xs-12">
+                </div>
+                <!--<div class="portItem col-md-4 col-xs-12">
                     <div class="thumbnail">
                         <a href="https://safe-basin-10956.herokuapp.com" target="_blank"><img src="assets/images/skyrim.png"></a>
                         <div class="caption">
@@ -356,30 +386,60 @@
                 </div>-->
             </div>
             <div class="row">
+                <div class="heading col-md-12 col-xs-12" id="portHeadingB">
+                    <h2>Commercial Projects</h2>
+                </div>
+            </div>
+            <div class="row">
+             <div class="portItem col-md-6 col-md-offset-3 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="http://www.newbriarwooddeli.com" target="_blank"><img src="assets/images/briarwood.png"></a>
+                        <div class="caption">
+                            <h4><b>BRIARWOOD DELI</b></h4>
+                            <p>My first freelance commercial project, I created this website for a successful small business deli located in Hamilton, NJ. Integrating mobile responsive design and the <a href="https://www.gloriafood.com/" target="_blank">Gloria Food</a> online ordering platform, this project opened a new online customer base for Briarwood Deli.</p>
+                            <h5><b>Key Tech:</b></h5>
+                            <ul>
+                                <li>Bootstrap Mobile Responsive Design</li>
+                                <li>HTML & CSS</li>
+                                <li>Gloria Food Online Ordering Platform</li>
+                            </ul>
+                            <p>
+                                <a href="http://www.newbriarwooddeli.com" target="_blank" class="btn btn-customC" role="button">
+                                    <span class="glyphicon glyphicon-play" aria-hidden="true"></span> APP
+                                </a>
+                                <a href="https://github.com/rso136/Briarwood" target="_blank" class="btn btn-customB" role="button">
+                                    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> CODE
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-12 col-xs-12" id="personalStatement">
-                    <sup><b>*Unless stated otherwise in the project description, all portfolio items have been solely developed by Richard Oh, the owner of this website.</b></sup> 
+                    <sup><b>*Unless stated otherwise in the project description, all portfolio items have been solely developed by Richard Oh, the owner of this website.</b></sup>
                 </div>
             </div>
             <div class="row">
                 <div class="heading col-md-2 col-md-offset-5 col-xs-12">
                     <a href="#anchor3"><i class="faClick fa fa-chevron-circle-up fa-2x" aria-hidden="true"></i>
-		            <h4 id="clickHeading2">Back to Top</h4></a>
+                    <h4 id="clickHeading2">Back to Top</h4></a>
                 </div>
             </div>
         </div>
     </div>
-<div class="container-fluid">    
-    <div class="row">
-        <div class="col-md-12 col-xs-12" id="footer">
-            <a href="https://www.linkedin.com/in/richardsoh" target="_blank"><i class="topFooterIcon fa fa-linkedin-square fa-lg" aria-hidden="true" id="topFooterIcon"></i> Linkedin</a>
-            <br>
-            <a href="https://github.com/rso136" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> GitHub</a>
-            <br>
-            <a href="mailto:rso136@gmail.com" target="_blank"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> Email</a>
-            <h5 id="copyright">© Richard Oh</h5>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-xs-12" id="footer">
+                <a href="https://www.linkedin.com/in/richardsoh" target="_blank"><i class="topFooterIcon fa fa-linkedin-square fa-lg" aria-hidden="true" id="topFooterIcon"></i> Linkedin</a>
+                <br>
+                <a href="https://github.com/rso136" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> GitHub</a>
+                <br>
+                <a href="mailto:rso136@gmail.com" target="_blank"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> Email</a>
+                <h5 id="copyright">© Richard Oh</h5>
+            </div>
         </div>
     </div>
-</div>
     <script>
     function openNav() {
         document.getElementById("myNav").style.width = "100%";
