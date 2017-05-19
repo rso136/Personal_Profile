@@ -264,6 +264,8 @@ a:hover {
 #highLightImg {
 	margin-top: 3vh;
 	margin-bottom: 3vh;
+	border: 1px solid;
+	border-color: #adadad;
 }
 
 #highLightBtnRow {
