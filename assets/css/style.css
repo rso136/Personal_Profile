@@ -433,4 +433,8 @@ and (max-device-width : 1024px) {
 		margin-left: 10vw;
 	}
 
+	#nesList {
+		margin-bottom: 31px;
+	}
+
 }
